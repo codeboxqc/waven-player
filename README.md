@@ -32,3 +32,23 @@ Bash
 ./Waven-x86_64.AppImage
 https://github.com/codeboxqc/waven-player/releases/download/1/waven-1.0.0-Linux.deb
 
+
+
+
+
+
+Troubleshooting: "AppImage requires FUSE to run"
+If you are using a newer Linux distribution (like Ubuntu 22.04 or later) and the file refuses to open or throws a FUSE error in the terminal, your system might be missing the required FUSE library.
+
+You can easily fix this by installing libfuse2.
+
+For Ubuntu/Debian/Mint:
+
+Bash
+sudo apt update
+sudo apt install libfuse2
+For Arch Linux / Manjaro:
+
+Bash
+sudo pacman -S fuse2
+
