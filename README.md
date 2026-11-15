@@ -16,7 +16,7 @@ https://snapcraft.io/waven-player
 
 sudo apt install ./waven-1.0.0-Linux.deb 
 
-download https://github.com/codeboxqc/waven-player/releases/download/1/waven-1.0.0-Linux.deb
+ 
 
 
 
@@ -30,7 +30,7 @@ Run the application by typing:
 
 Bash
 ./Waven-x86_64.AppImage
-https://github.com/codeboxqc/waven-player/releases/download/1/waven-1.0.0-Linux.deb
+ 
 
 
 
