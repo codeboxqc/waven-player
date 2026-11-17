@@ -16,23 +16,43 @@ https://github.com/codeboxqc/waven-player/releases/tag/1%2C8
 
 
 
-sudo apt install ./waven-1.0.0-Linux.deb 
+ *******************************************************
 
+
+  chmod +x Waven-x86_64.AppImage
+ ./Waven-x86_64.AppImage
+
+sudo apt install ./waven_1.0.42_amd64.deb
+sudo apt remove waven
+
+sudo snap install --dangerous waven-player_1.0.79_amd64.snap
+ sudo snap remove waven-player
+
+*********************************
+ 
  
 
 
 
-Bash
-cd ~/Downloads
-Make the file executable by running this command:
 
-Bash
-chmod +x Waven-x86_64.AppImage
-Run the application by typing:
 
-Bash
-./Waven-x86_64.AppImage
- 
+sudo snap refresh waven-player
+sudo snap install waven-player
+snap run waven-player
+
+sudo snap install waven-player
+sudo snap remove waven-player
+sudo apt remove Waven
+
+sudo snap install --dangerous build-linux/waven-player_*.snap
+sudo snap connect waven-player:pipewire || true
+sudo snap connect waven-player:audio-playback || true
+sudo snap connect waven-player:pulseaudio || true
+sudo snap connect waven-player:alsa || true
+sudo snap connect waven-player:audio-playback
+sudo snap connect waven-player:audio-record
+sudo snap connect waven-player:removable-media
+
 
 
 
