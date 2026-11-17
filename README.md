@@ -37,21 +37,35 @@ sudo snap install --dangerous waven-player_1.0.79_amd64.snap
 
 
 sudo snap refresh waven-player
+
 sudo snap install waven-player
+
 snap run waven-player
 
+
 sudo snap install waven-player
+
 sudo snap remove waven-player
+
 sudo apt remove Waven
 
+
 sudo snap install --dangerous build-linux/waven-player_*.snap
+
 sudo snap connect waven-player:pipewire || true
+
 sudo snap connect waven-player:audio-playback || true
+
 sudo snap connect waven-player:pulseaudio || true
+
 sudo snap connect waven-player:alsa || true
+
 sudo snap connect waven-player:audio-playback
+
 sudo snap connect waven-player:audio-record
+
 sudo snap connect waven-player:removable-media
+
 
 
 
