@@ -12,6 +12,8 @@ https://snapcraft.io/waven-player
 
 
 
+https://github.com/codeboxqc/waven-player/releases/tag/1%2C8
+
 
 
 sudo apt install ./waven-1.0.0-Linux.deb 
